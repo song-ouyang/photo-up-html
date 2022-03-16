@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="./index.js"></script>
+    
+    <title>文件</title>
+</head>
+<body>
+    <!-- <h1>文件上传</h1> -->
+    <div class="main">
+
+        <h1 style="color:white;text-align:center;padding:20px">文件上传框</h1>
+        <div style="text-align: center;">
+            <div class="upload-wrap anticon">
+                <input class="file"  type="file" id="file" uploader="uploader" multiple />
+                <div class="file-open">upload</div>    
+            </div>
+        </div>
+
+        <h1 style="color:white;text-align:center;padding:20px">显示进度条</h1>
+        <div id="progress" style="margin:0 auto;">
+            <div class="progress-item"></div>
+        </div>
+        <h1 style="color:white;text-align:center;padding:20px">上传成功返回信息</h1>
+        <div id="callback" style="text-align: center;color: white;"></div>
+    </div>
+</body>
+</html>
